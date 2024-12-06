@@ -14,7 +14,7 @@ async function getGames(id) {
       function displayCard(array) {
         let cartona = "";
         for (let index = 0; index < array.length; index++) {
-           cartona +=`<div class="w-[320px] sm:w-full card border-2 border-neutral-900 rounded-lg flex flex-col justify-between opacity-60 hover:opacity-100 ease-out duration-300 hover:scale-105" id="card">
+           cartona +=`<div class="max-w-[390px] sm:w-full card border-2 border-neutral-900 rounded-lg flex flex-col justify-between opacity-60 hover:opacity-100 ease-out duration-300 hover:scale-105" id="card">
         <div class="img px-2 pt-2 flex justify-center">
             <img src="${array[index].thumbnail}" alt="${array[index].title} class="w-full h-auto">
         </div>
